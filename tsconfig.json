@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "paths": {
+      "@ui/*": ["../../packages/ui/src/*"],
+      "@auth/*": ["../../packages/auth/src/*"],
+      "@validation/*": ["../../packages/validation/src/*"],
+      "@types/*": ["../../packages/types/src/*"]
+    }
+  }
+}
